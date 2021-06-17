@@ -29,7 +29,7 @@ def send():
 
     body=data.get('body')
 
-    sender="+15512265357"
+    sender=config('TWILIO_PHONE_NUMBER') #the phone number you purchase from Twilio
 
     to=data.get('to')
 
